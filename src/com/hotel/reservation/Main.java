@@ -3,7 +3,7 @@ package com.hotel.reservation;
 
 // Importación de clases necesarias del proyecto
 import com.hotel.reservation.customer.Customer;
-import com.hotel.reservation.notification.Notificable;
+import com.hotel.reservation.notification.Notifier;
 import com.hotel.reservation.reservation.*;
 import com.hotel.reservation.room.Room;
 import com.hotel.reservation.room.factories.DoubleRoomFactory;
@@ -19,7 +19,7 @@ public class Main {
         ReservationSystem system = ReservationSystem.getInstancia();
 
         // Instancia de la clase Notificable para manejar observadores
-        Notificable notificable = new Notificable();
+        Notifier notificable = new Notifier();
 
         // Scanner para capturar la entrada del usuario
         Scanner scanner = new Scanner(System.in);

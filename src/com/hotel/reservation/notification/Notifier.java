@@ -7,8 +7,9 @@ import java.util.List;
  * Clase que almacena todos los observadores (Clientes) que serán notificados
  * al momento de crearse una reserva
  */
-public class Notificable {
-    private List<Observer> observers = new ArrayList<>();
+public class Notifier {
+
+    private final List<Observer> observers = new ArrayList<>();
 
     /**
      *
@@ -19,7 +20,8 @@ public class Notificable {
     }
 
     /**
-     * Se notifica a todos los Clientes utilizando el método update que implementa la clase Customer
+     * Se notifica a todos los Clientes utilizando el
+     * método update que implementa la clase Customer
      * @param message
      */
     public void notify(String message) {
