@@ -15,9 +15,9 @@ import java.util.List;
  */
 public class ReservationSystem {
     private static ReservationSystem instance;
-    private List<Customer> customers;
-    private List<Room> rooms;
-    private List<Reservation> reservations;
+    private final List<Customer> customers;
+    private final List<Room> rooms;
+    private final List<Reservation> reservations;
     private static int customerId = 1;//almacena el último id de cliente
 
     private ReservationSystem() {

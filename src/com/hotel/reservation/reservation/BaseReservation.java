@@ -8,9 +8,9 @@ import com.hotel.reservation.room.Room;
  */
 public class BaseReservation implements Reservation{
 
-    private Customer customer;
-    private Room room;
-    private int nights;//Número de noches que se hospedará el cliente
+    private final Customer customer;
+    private final Room room;
+    private final int nights;//Número de noches que se hospedará el cliente
 
     public BaseReservation(Customer customer, Room room, int nights){
         this.customer = customer;
