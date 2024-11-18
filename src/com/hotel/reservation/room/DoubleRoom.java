@@ -11,7 +11,7 @@ public class DoubleRoom extends Room{
 
     @Override
     public double calculatePrice(int nights) {
-        return roomType.getPricePerNight() * nights * (nights > 3 ? 0.9: 1);//Descuento del 10% si se queda más de 3 días
+        //Descuento del 10% si se queda más de 3 días
+        return roomType.getPricePerNight() * nights * (nights > 3 ? 0.9: 1);
     }
-
 }

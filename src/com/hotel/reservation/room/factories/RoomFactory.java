@@ -9,7 +9,8 @@ import com.hotel.reservation.room.RoomType;
 public abstract class RoomFactory {
     /**
      *
-     * @return un objeto de tipo Room o que extienda de la clase Room (StandardRoom, DoubleRoom, PresidentialRoom)
+     * @return un objeto de tipo Room o que extienda de
+     * la clase Room (StandardRoom, DoubleRoom, PresidentialRoom)
      */
     public abstract Room create();
 }

@@ -1,7 +1,7 @@
 package com.hotel.reservation.reservation;
 
 /**
- * Interface que define el comportamient básico de una reserva
+ * Interface que define el comportamiento básico de una reserva
  */
 public interface Reservation {
     /**

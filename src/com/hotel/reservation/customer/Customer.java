@@ -3,8 +3,9 @@ package com.hotel.reservation.customer;
 import com.hotel.reservation.notification.Observer;
 
 /**
- * Clase que define el comportamiento y atributos de los clientes. Se implementa Observer para que los
- * clientes puedan ser notificados siempre que hagan una resrva
+ * Clase que define el comportamiento y atributos de los clientes.
+ * Se implementa Observer para que los
+ * clientes puedan ser notificados siempre que hagan una reserva
  */
 public class Customer implements Observer {
 

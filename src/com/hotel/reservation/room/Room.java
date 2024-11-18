@@ -13,7 +13,8 @@ public abstract class Room {
     }
 
     /**
-     * Método que calcula el precio de la habitación en base a las noches que se hospedará el cliente
+     * Método que calcula el precio de la habitación en base a las noches
+     * que se hospedará el cliente
      * @param nights
      * @return
      */

@@ -11,6 +11,7 @@ public class PresidentialRoom extends Room{
 
     @Override
     public double calculatePrice(int nights) {
-        return roomType.getPricePerNight() * nights * (nights > 5 ? 0.75:1);//Descuento del 25% si se queda más de 5 días
+        //Descuento del 25% si se queda más de 5 días
+        return roomType.getPricePerNight() * nights * (nights > 5 ? 0.75:1);
     }
 }
